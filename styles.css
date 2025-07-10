@@ -77,46 +77,46 @@ button {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-    margin-bottom: 116px;
+	margin-bottom: 116px;
 }
 
 .wc-mini {
-    width: 403px;
-    height: 328px;
-    border-radius: 48px;
+	width: 403px;
+	height: 328px;
+	border-radius: 48px;
 }
 
-.pro-users-section{
-    background-color: #4e47ff19;
-    padding: 50px 150px;
-    text-align: center;
-    border-radius: 24px;
+.pro-users-section {
+	background-color: #4e47ff19;
+	padding: 50px 150px;
+	text-align: center;
+	border-radius: 24px;
 }
 
-.pro-users-flex{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    gap: 150px;
+.pro-users-flex {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	gap: 300px;
 }
 
-.pro-users-heading{
-    font-family: 'Raleway';
-    font-size: 38px;
-    font-weight: bold;
-    color: #252432;
-    margin-bottom: 40px;
+.pro-users-heading {
+	font-family: "Raleway";
+	font-size: 38px;
+	font-weight: bold;
+	color: #252432;
+	margin-bottom: 40px;
 }
 
-.pro-users-digit{
-    font-family: "Inter";
-    font-weight: bold;
-    font-size: 80px;
-    color: #4e47ff;
+.pro-users-digit {
+	font-family: "Inter";
+	font-weight: bold;
+	font-size: 80px;
+	color: #4e47ff;
 }
 
-.pro-users-text{
-    font-family: "Inter";
-    font-size: 20px;
-    color: #00000080;
+.pro-users-text {
+	font-family: "Inter";
+	font-size: 20px;
+	color: #00000080;
 }
