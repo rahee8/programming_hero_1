@@ -3,13 +3,13 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="style.css" />
 		<title>Landing Launchpad</title>
 	</head>
 	<body class="home-container">
 		<header>
 			<nav class="navbar-section">
-				<p class="logo">LOGO</p>
+				<p class="logo-header">LOGO</p>
 				<button>Sign Up</button>
 			</nav>
 		</header>
@@ -39,14 +39,77 @@
 
 			<section class="pro-users-section">
 				<h3 class="pro-users-heading">Joined Thousands of Productive Users</h3>
-				<div class="pro-users-flex">
+				<div>
 					<ul class="pro-users-flex">
-						<li><span class="pro-users-digit">50K</span><br/><span class="pro-users-text">Active Users</span></li>
-						<li><span class="pro-users-digit">2M+</span><br/><span class="pro-users-text">Focus Sessions</span></li><li><span class="pro-users-digit">95%</span><br/><span class="pro-users-text">Satisfaction Rate</span></li>
+						<li>
+							<span class="pro-users-digit">50K</span><br /><span
+								class="pro-users-text"
+								>Active Users</span
+							>
+						</li>
+						<li>
+							<span class="pro-users-digit">2M+</span><br /><span
+								class="pro-users-text"
+								>Focus Sessions</span
+							>
+						</li>
+						<li>
+							<span class="pro-users-digit">95%</span><br /><span
+								class="pro-users-text"
+								>Satisfaction Rate</span
+							>
+						</li>
 					</ul>
 				</div>
 			</section>
+
+			<section class="touch-section">
+				<h2 class="touch-section-heading">Let’s Get in <br />Touch</h2>
+
+				<form action="#">
+					<label for="email">Email</label><br />
+					<input
+						type="email"
+						id="email"
+						name="email"
+						required
+						placeholder="example@email.com"
+						class="form-internal-gap"
+					/><br />
+					<label for="name">Name</label><br />
+					<input
+						type="text"
+						id="name"
+						name="name"
+						required
+						placeholder="full name"
+						class="form-internal-gap"
+					/><br />
+					<label for="name">Message</label><br />
+					<textarea
+						id="message"
+						name="message"
+						required
+						placeholder="write your message..."
+						class="form-internal-gap"
+					></textarea
+					><br />
+					<button class="get-touch-button">Get in Touch</button>
+				</form>
+			</section>
 		</main>
-		<footer></footer>
+		<footer>
+			<h2 class="logo-footer">LOGO</h2>
+			<p class="footer-contact-us">
+				Ready to elevate your online presence? Contact us today to discuss your
+				project and discover how we can bring your vision to life.
+			</p>
+			<ul class="footer-nav">
+				<li>Home</li>
+				<li>About</li>
+				<li>How it Works</li>
+				<li>Services</li>
+			</ul>
+		</footer>
 	</body>
 </html>

@@ -12,11 +12,12 @@
 	width: 1440px;
 	height: 698px;
 	background-repeat: repeat-x;
+	background-color: #f5f8ff;
 }
 
 body {
 	margin: 0;
-	padding: 0 120px;
+	padding: 0 150px;
 }
 
 nav {
@@ -27,7 +28,7 @@ nav {
 	padding: 50px 0;
 }
 
-.logo {
+.logo-header {
 	font-family: "Inter";
 	font-weight: 900;
 	color: #4e47ff;
@@ -78,6 +79,7 @@ button {
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 116px;
+	padding: 0 100px;
 }
 
 .wc-mini {
@@ -91,6 +93,7 @@ button {
 	padding: 50px 150px;
 	text-align: center;
 	border-radius: 24px;
+	margin-bottom: 137px;
 }
 
 .pro-users-flex {
@@ -119,4 +122,79 @@ button {
 	font-family: "Inter";
 	font-size: 20px;
 	color: #00000080;
+}
+
+.touch-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 100px;
+	margin-bottom: 104px;
+}
+
+.touch-section-heading {
+	font-family: "Raleway";
+	font-size: 97px;
+	font-weight: bold;
+	color: #000;
+}
+
+label {
+	font-family: "Inter";
+	font-size: 18px;
+	font-weight: 500;
+	color: #000;
+}
+
+input,
+textarea {
+	font-family: "Inter";
+	font-size: 20px;
+	font-weight: normal;
+	color: #00000080;
+	width: 497px;
+	height: 70px;
+	border-radius: 10px;
+	padding: 20px 271px 20px 32px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	outline: 1px solid #ddd;
+}
+
+textarea {
+	width: 497px;
+	height: 135px;
+}
+
+.form-internal-gap {
+	margin-bottom: 19px;
+}
+
+.get-touch-button {
+	width: 497px;
+	height: 70px;
+	border-radius: 10px;
+}
+
+footer{
+	text-align: center;
+	padding: 0 455px;
+}
+
+.footer-nav{
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	gap: 48px;
+}
+
+.logo-footer{
+	font-family: "Inter";
+	font-weight: 900;
+	font-size: 100px;
+	color: #4e47ff;
+}
+
+.footer-contact-us{
+
 }
