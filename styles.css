@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.home-container {
+	background-image: url("Assets/Hero-bg.png");
+	width: 1440px;
+	height: 698px;
+	background-repeat: repeat-x;
+}
+
+body {
+	margin: 0;
+	padding: 0 120px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 158px;
+	padding: 50px 0;
+}
+
+.logo {
+	font-family: "Inter";
+	font-weight: 900;
+	color: #4e47ff;
+	font-size: 34px;
+}
+
+button {
+	font-family: "Raleway";
+	font-weight: bold;
+	border: none;
+	background-color: #4e47ff;
+	padding: 12px 36px;
+	color: #fff;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+.banner {
+	text-align: center;
+	margin-bottom: 268px;
+}
+
+.banner-heading {
+	font-family: "Raleway";
+	font-weight: bold;
+	color: #252432;
+	font-size: 65px;
+	margin-bottom: 37px;
+}
+
+.action-section-title {
+	font-family: "Raleway";
+	font-weight: bold;
+	color: #252432;
+	font-size: 42px;
+	margin-bottom: 23px;
+}
+
+.action-section-subtitle {
+	font-family: "Raleway";
+	color: #25243280;
+	font-size: 24px;
+	margin-bottom: 23px;
+}
+
+.action-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    margin-bottom: 116px;
+}
+
+.wc-mini {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+.pro-users-section{
+    background-color: #4e47ff19;
+    padding: 50px 150px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.pro-users-flex{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.pro-users-heading{
+    font-family: 'Raleway';
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 40px;
+}
+
+.pro-users-digit{
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 80px;
+    color: #4e47ff;
+}
+
+.pro-users-text{
+    font-family: "Inter";
+    font-size: 20px;
+    color: #00000080;
+}
