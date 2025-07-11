@@ -7,7 +7,7 @@
 	padding: 0;
 }
 
-/* Background-Image */
+/* Background-Image & Buttons */
 
 .home-container {
 	background-image: url("Assets/Hero-bg.png");
@@ -16,6 +16,33 @@
 	background-position: top center;
 	background-color: #f5f8ff;
 	text-align: center;
+}
+
+button {
+	font-family: "Raleway";
+	font-weight: bold;
+	border: none;
+	background-color: #4e47ff;
+	transition: transform 0.3s ease;
+	padding: 12px 36px;
+	color: #fff;
+	border-radius: 10px;
+	font-size: 16px;
+	white-space: nowrap;
+}
+
+button:hover {
+	font-weight: 900;
+	background-color: orange;
+	transform: scale(1.05);
+	color: #252432;
+}
+
+button:active{
+	font-weight: 900;
+	background-color: #ddd;
+	transform: scale(0.95);
+	color: #252432;
 }
 
 /* 1. Navigation-Bar-Start */
@@ -33,18 +60,6 @@ nav {
 	font-weight: 900;
 	color: #4e47ff;
 	font-size: 34px;
-}
-
-button {
-	font-family: "Raleway";
-	font-weight: bold;
-	border: none;
-	background-color: #4e47ff;
-	padding: 12px 36px;
-	color: #fff;
-	border-radius: 10px;
-	font-size: 16px;
-	white-space: nowrap;
 }
 
 /* 2. Banner-Section-Start */
@@ -305,6 +320,11 @@ textarea {
 	list-style-type: none;
 	gap: 38px;
 	align-items: center;
+	font-family: "Raleway";
+	color: #8987A1;
+	font-size: 18px;
+	padding-bottom: 100px;
+	white-space: nowrap;
 }
 
 .logo-footer {
@@ -318,17 +338,22 @@ textarea {
 
 .footer-contact-us {
 	font-family: "Raleway";
-	color: #25243280;
+	color: #8987A1;
 	font-size: 16px;
 	line-height: 1.4;
 	margin-bottom: 20px;
 	white-space: nowrap;
 }
 
-.footer-nav {
-	font-family: "Raleway";
-	color: #25243280;
-	font-size: 18px;
-	padding-bottom: 100px;
-	white-space: nowrap;
+a, a:link{
+	text-decoration: none;
+	color: #8987A1;
+}
+
+a:hover{
+	color: orange;
+}
+
+a:active{
+	color: #ddd;
 }
