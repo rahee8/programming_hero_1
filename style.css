@@ -18,7 +18,6 @@
 	text-align: center;
 }
 
-
 /* 1. Navigation-Bar-Start */
 
 nav {
@@ -45,6 +44,7 @@ button {
 	color: #fff;
 	border-radius: 10px;
 	font-size: 16px;
+	white-space: nowrap;
 }
 
 /* 2. Banner-Section-Start */
@@ -60,6 +60,7 @@ button {
 	color: #252432;
 	font-size: 65px;
 	margin-bottom: 37px;
+	white-space: nowrap;
 }
 
 /* 3. Action-Section-Start */
@@ -70,6 +71,7 @@ button {
 	align-items: center;
 	margin-bottom: 116px;
 	padding: 0 150px;
+	gap: 200px;
 }
 
 .action-section-title {
@@ -78,6 +80,7 @@ button {
 	color: #252432;
 	font-size: 42px;
 	margin-bottom: 23px;
+	white-space: nowrap;
 }
 
 .action-section-subtitle {
@@ -85,6 +88,7 @@ button {
 	color: #25243280;
 	font-size: 24px;
 	margin-bottom: 23px;
+	white-space: nowrap;
 }
 
 .wc-mini {
@@ -97,17 +101,26 @@ button {
 
 .pro-users-section {
 	background-color: #4e47ff19;
-	padding: 50px 150px;
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px;
+	/* text-align: center; */
 	border-radius: 24px;
-	margin: 0 200px 137px;
+	margin: 0 150px 140px;
+	height: 200px;
+	max-width: 1440px;
+	min-width: 1000px;
 }
 
 .pro-users-flex {
 	list-style-type: none;
 	display: flex;
-	justify-content: center;
-	gap: 250px;
+	justify-content: space-between;
+	align-items: center;
+	gap: 220px;
+	padding: 0 200px;
 }
 
 .pro-users-heading {
@@ -115,7 +128,8 @@ button {
 	font-size: 38px;
 	font-weight: bold;
 	color: #252432;
-	margin-bottom: 40px;
+	padding-bottom: 40px;
+	white-space: nowrap;
 }
 
 .pro-users-digit {
@@ -131,14 +145,101 @@ button {
 	color: #00000080;
 }
 
+/* Review-Section */
+
+.review-section {
+	margin-bottom: 140px;
+}
+
+.review-section-heading {
+	font-family: "Raleway";
+	font-size: 42px;
+	color: #252432;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 50px;
+	white-space: nowrap;
+}
+
+.review-section-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 100px;
+	gap: 30px;
+}
+.review {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	border-radius: 14px;
+	border: 1px solid #ddd;
+	outline: 1px solid #ddd;
+	width: 320px;
+	height: 200px;
+	text-align: left;
+	padding: 30px;
+	justify-content: space-between;
+}
+
+.icon-star-flex {
+	padding-bottom: 20px;
+}
+
+.review-title {
+	font-family: "Inter";
+	font-size: 24px;
+	font-weight: 600;
+	color: #252432;
+	padding-bottom: 8px;
+	white-space: nowrap;
+}
+
+.review-subtitle {
+	font-family: "Inter";
+	font-size: 16px;
+	font-weight: normal;
+	padding-bottom: 24px;
+	white-space: nowrap;
+}
+
+.reviewer-details {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.reviewer-avatar {
+	padding-right: 12px;
+	border-radius: 50%;
+}
+
+.reviewer-name {
+	font-family: "Inter";
+	font-size: 16px;
+	font-weight: 600;
+	color: #757575;
+	padding: 2px 0;
+	white-space: nowrap;
+}
+
+.review-date {
+	font-family: "Inter";
+	font-size: 16px;
+	font-weight: normal;
+	color: #b3b3b3;
+	white-space: nowrap;
+}
+
 /* 5. Touch-Section-Start */
 
 .touch-section {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 100px;
-	margin: 0 150px 104px;
+	gap: 100px;
+	padding: 0 50px;
+	margin: 0 150px 105px;
 }
 
 .touch-section-heading {
@@ -146,6 +247,13 @@ button {
 	font-size: 97px;
 	font-weight: bold;
 	color: #000;
+	white-space: nowrap;
+}
+
+.form {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
 }
 
 label {
@@ -153,6 +261,7 @@ label {
 	font-size: 18px;
 	font-weight: 500;
 	color: #000;
+	margin-bottom: 10px;
 }
 
 input,
@@ -168,16 +277,13 @@ textarea {
 	box-sizing: border-box;
 	border: 1px solid #ddd;
 	outline: 1px solid #ddd;
-	margin-bottom: 19px;
+	margin-bottom: 20px;
+	white-space: nowrap;
 }
 
 textarea {
 	width: 497px;
 	height: 135px;
-}
-
-.form-internal-gap {
-	margin-bottom: 19px;
 }
 
 .get-touch-button {
@@ -188,39 +294,41 @@ textarea {
 
 /* 6. Footer-Section-Start */
 
-.footer{
+.footer {
 	text-align: center;
 }
 
-.footer-nav{
+.footer-nav {
 	display: flex;
 	text-align: center;
 	justify-content: center;
 	list-style-type: none;
 	gap: 38px;
 	align-items: center;
-
 }
 
-.logo-footer{
+.logo-footer {
 	font-family: "Inter";
 	font-weight: 900;
 	font-size: 100px;
 	color: #4e47ff;
 	margin-bottom: 8px;
+	white-space: nowrap;
 }
 
-.footer-contact-us{
+.footer-contact-us {
 	font-family: "Raleway";
 	color: #25243280;
 	font-size: 16px;
 	line-height: 1.4;
 	margin-bottom: 20px;
+	white-space: nowrap;
 }
 
-.footer-nav{
+.footer-nav {
 	font-family: "Raleway";
 	color: #25243280;
 	font-size: 18px;
 	padding-bottom: 100px;
+	white-space: nowrap;
 }
