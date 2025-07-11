@@ -7,7 +7,7 @@
 	padding: 0;
 }
 
-/* Background-Image & Buttons */
+/* Background-Image & Buttons Effect*/
 
 .home-container {
 	background-image: url("Assets/Hero-bg.png");
@@ -251,7 +251,7 @@ nav {
 .touch-section {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	/* align-items: center; */
 	gap: 100px;
 	padding: 0 50px;
 	margin: 0 150px 105px;
