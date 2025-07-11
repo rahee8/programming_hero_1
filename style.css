@@ -309,7 +309,9 @@ textarea {
 /* 6. Footer-Section-Start */
 
 .footer {
+	padding-top: 105px;
 	text-align: center;
+	background-color: #fff;
 }
 
 .footer-nav {
@@ -322,7 +324,7 @@ textarea {
 	font-family: "Raleway";
 	color: #8987A1;
 	font-size: 18px;
-	padding-bottom: 100px;
+	padding-bottom: 105px;
 	white-space: nowrap;
 }
 
