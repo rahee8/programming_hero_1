@@ -89,6 +89,10 @@ nav {
 	gap: 200px;
 }
 
+.action-section-text{
+	text-align: left;
+}
+
 .action-section-title {
 	font-family: "Raleway";
 	font-weight: bold;
@@ -252,8 +256,8 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	gap: 100px;
-	padding: 0 50px;
-	margin: 0 150px 105px;
+	padding: 0 150px;
+	margin-bottom: 105px;
 }
 
 .touch-section-heading {
@@ -262,6 +266,7 @@ nav {
 	font-weight: bold;
 	color: #000;
 	white-space: nowrap;
+	text-align: left;
 }
 
 .form {
@@ -345,6 +350,8 @@ textarea {
 	margin-bottom: 20px;
 	white-space: nowrap;
 }
+
+/* Anchor-Hover-Effect */
 
 a, a:link{
 	text-decoration: none;
