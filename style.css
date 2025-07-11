@@ -7,25 +7,26 @@
 	padding: 0;
 }
 
+/* Background-Image */
+
 .home-container {
 	background-image: url("Assets/Hero-bg.png");
-	width: 1440px;
 	height: 698px;
 	background-repeat: repeat-x;
+	background-position: top center;
 	background-color: #f5f8ff;
+	text-align: center;
 }
 
-body {
-	margin: 0;
-	padding: 0 150px;
-}
+
+/* 1. Navigation-Bar-Start */
 
 nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 158px;
-	padding: 50px 0;
+	padding: 50px 150px;
 }
 
 .logo-header {
@@ -46,6 +47,8 @@ button {
 	font-size: 16px;
 }
 
+/* 2. Banner-Section-Start */
+
 .banner {
 	text-align: center;
 	margin-bottom: 268px;
@@ -57,6 +60,16 @@ button {
 	color: #252432;
 	font-size: 65px;
 	margin-bottom: 37px;
+}
+
+/* 3. Action-Section-Start */
+
+.action-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 116px;
+	padding: 0 150px;
 }
 
 .action-section-title {
@@ -74,33 +87,27 @@ button {
 	margin-bottom: 23px;
 }
 
-.action-section {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom: 116px;
-	padding: 0 100px;
-}
-
 .wc-mini {
 	width: 403px;
 	height: 328px;
 	border-radius: 48px;
 }
 
+/* 4. Productive-Users-Section-Start*/
+
 .pro-users-section {
 	background-color: #4e47ff19;
 	padding: 50px 150px;
 	text-align: center;
 	border-radius: 24px;
-	margin-bottom: 137px;
+	margin: 0 200px 137px;
 }
 
 .pro-users-flex {
 	list-style-type: none;
 	display: flex;
-	justify-content: space-between;
-	gap: 300px;
+	justify-content: center;
+	gap: 250px;
 }
 
 .pro-users-heading {
@@ -124,12 +131,14 @@ button {
 	color: #00000080;
 }
 
+/* 5. Touch-Section-Start */
+
 .touch-section {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 100px;
-	margin-bottom: 104px;
+	margin: 0 150px 104px;
 }
 
 .touch-section-heading {
@@ -159,6 +168,7 @@ textarea {
 	box-sizing: border-box;
 	border: 1px solid #ddd;
 	outline: 1px solid #ddd;
+	margin-bottom: 19px;
 }
 
 textarea {
@@ -176,16 +186,20 @@ textarea {
 	border-radius: 10px;
 }
 
-footer{
+/* 6. Footer-Section-Start */
+
+.footer{
 	text-align: center;
-	padding: 0 455px;
 }
 
 .footer-nav{
 	display: flex;
 	text-align: center;
-	justify-content: space-between;
-	gap: 48px;
+	justify-content: center;
+	list-style-type: none;
+	gap: 38px;
+	align-items: center;
+
 }
 
 .logo-footer{
@@ -193,8 +207,20 @@ footer{
 	font-weight: 900;
 	font-size: 100px;
 	color: #4e47ff;
+	margin-bottom: 8px;
 }
 
 .footer-contact-us{
+	font-family: "Raleway";
+	color: #25243280;
+	font-size: 16px;
+	line-height: 1.4;
+	margin-bottom: 20px;
+}
 
+.footer-nav{
+	font-family: "Raleway";
+	color: #25243280;
+	font-size: 18px;
+	padding-bottom: 100px;
 }
